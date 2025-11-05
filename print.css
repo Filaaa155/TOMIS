@@ -1,0 +1,24 @@
+nav, footer, .sidebar {
+    display: none;
+}
+
+body {
+    font-size: 14pt;
+    line-height: 1.4;
+    color: black;
+    background: white;
+}
+
+.content, main {
+    width: 100%;
+}
+
+a::after {
+    content: " (" attr(href) ")";
+    font-size: 12pt;
+}
+
+header h1 {
+    font-size: 22pt;
+    margin-bottom: 10px;
+}
